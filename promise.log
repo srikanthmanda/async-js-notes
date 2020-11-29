@@ -1,0 +1,43 @@
+promisifiedReadFile invoked for: promise.js
+promisifiedReadFile invoked for: no-file-for-then-onRejected
+promisifiedReadFile invoked for: no-file-for-catch
+promisifiedReadFile invoked for: no-file-for-then-catch
+fs.readFile failed for: no-file-for-then-onRejected. Promise rejected.
+In Then block onRejection handler of rejected promise ...
+Error:
+[Error: ENOENT: no such file or directory, open 'no-file-for-then-onRejected'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'no-file-for-then-onRejected'
+}
+In Finally block of rejected promise, following Then.
+
+fs.readFile failed for: no-file-for-catch. Promise rejected.
+In Catch block of rejected promise ...
+Error:
+[Error: ENOENT: no such file or directory, open 'no-file-for-catch'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'no-file-for-catch'
+}
+In Finally block of rejected promise, following Catch.
+
+fs.readFile failed for: no-file-for-then-catch. Promise rejected.
+In Then block onRejection handler of rejected promise (with Catch) ...
+Error:
+[Error: ENOENT: no such file or directory, open 'no-file-for-then-catch'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'no-file-for-then-catch'
+}
+In Finally block of rejected promise, following Then & Catch.
+
+fs.readFile succeeded for: promise.js. Promise fulfilled.
+fs.readFile succeeded for: promise.js. After resolve.
+In Then block onFulfilled handler of fulfilled promise ...
+File header: "use strict";
+In Finally block of fulfilled promise.
+
