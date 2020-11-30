@@ -41,3 +41,4 @@
 - [await - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
 - [⭐️🎀 JavaScript Visualized: Promises & Async/Await](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
 - [ECMAScript proposal: Top-level `await`](https://github.com/tc39/proposal-top-level-await)
+- [Promises and async/await cheatsheet](https://frontarm.com/courses/async-javascript/in-practice/cheatsheet/)
